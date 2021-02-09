@@ -1,0 +1,7 @@
+:host {
+display: block; /*this is for larger images when you want it to stretch the whole width*/
+margin-bottom: 10px;
+}
+img {
+width: 100%;
+}
