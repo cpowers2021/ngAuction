@@ -4,5 +4,10 @@
   </div>
 </div>
 <div class="row">
-  We'll render several ProductItem components here
+  <div *ngFor="let aSingleProduct of products"
+       class="col-sm-4 col-lg-4 col-md-4">
+    <nga-product-item [product]="aSingleProduct"></nga-product-item>
+  </div>
 </div>
+<!--The first product refers to the input in the product component,
+ and the second is the one from the for loop-->
